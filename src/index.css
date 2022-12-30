@@ -1,6 +1,13 @@
 @import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.8rem;
 }

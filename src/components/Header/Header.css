@@ -1,0 +1,21 @@
+.Header {
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.Header__logo {
+    width: 8.5rem;   
+    margin-left: 1rem;
+}
+
+.Header__menu_btn {
+    margin-right: 1rem;
+}
+
+.Header__nav {
+    display: none;
+}

@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Public Sans', sans-serif;
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 p {

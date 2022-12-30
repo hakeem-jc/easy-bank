@@ -1,18 +1,13 @@
 import './App.css';
+import Header from '../components/Header/Header';
 
 const App = () => {
   return (
-    <main>
-      Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite
+    <main className='App'>
+      <Header />
 
 
-
+{/* 
   Next generation digital banking
 
   Take your financial life online. Your Easybank account will be a one-stop-shop 
@@ -65,7 +60,7 @@ const App = () => {
   By Claire Robinson
   Our invite-only Beta accounts are now live!
   After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-  It’s easy to request an invite through the site ...
+  It’s easy to request an invite through the site ... */}
 
 
     </main>

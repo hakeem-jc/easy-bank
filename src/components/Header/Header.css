@@ -1,21 +1,24 @@
-.Header {
-    width: 100%;
-    min-height: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+.header {
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 0;
 }
 
-.Header__logo {
-    width: 8.5rem;   
-    margin-left: 1rem;
+.header__logo {
+  width: 8.5rem;
+  margin-left: 1rem;
 }
 
-.Header__menu_btn {
-    margin-right: 1rem;
+.header__menu_btn {
+  margin-right: 1rem;
 }
 
-.Header__nav {
-    display: none;
+.header__nav {
+  display: none;
 }

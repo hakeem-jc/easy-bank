@@ -1,17 +1,17 @@
-import './App.css';
-import Header from '../components/Header/Header';
+import "./App.css";
+import Header from "../components/Header/Header";
+import HeroSection from "../layout/HeroSection/HeroSection";
 
 const App = () => {
   return (
-    <main className='App'>
+    <main className="App">
       <Header />
+      <HeroSection />
 
+      {/* 
+  
 
-{/* 
-  Next generation digital banking
-
-  Take your financial life online. Your Easybank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.
+  
 
   Request Invite
 
@@ -61,10 +61,8 @@ const App = () => {
   Our invite-only Beta accounts are now live!
   After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
   It’s easy to request an invite through the site ... */}
-
-
     </main>
   );
-}
+};
 
 export default App;
